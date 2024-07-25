@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    width: 60%;
+    background: #f0f4f8;
+}
+
+.right-section {
+    width: 40%;
+    background: #e3e7ed;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.info {
+    font-size: 0.8em;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.encrypt-btn {
+    background: #1d3557;
+    color: #fff;
+}
+
+.decrypt-btn {
+    background: #a8dadc;
+    color: #1d3557;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.output-area {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 1.2em;
+    min-height: 50px;
+    width: 80%;
+    word-wrap: break-word;
+    color: #333;
+}
+
+.output-info {
+    font-size: 0.8em;
+    color: #1d3557;
+    margin-top: 10px;
+}

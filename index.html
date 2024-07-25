@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío de Encriptación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1 class="title">Ingrese el texto aquí</h1>
+            <textarea id="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="info">🔒 Solo letras minúsculas y sin acentos</div>
+            <div class="buttons">
+                <button class="encrypt-btn" onclick="encryptText()">Encriptar</button>
+                <button class="decrypt-btn" onclick="decryptText()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="Muñeco.png" alt="Imagen" class="image">
+            <div id="outputText" class="output-area">Ningún mensaje fue encontrado</div>
+            <div class="output-info">Ingresa el texto que desees encriptar o desencriptar.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
